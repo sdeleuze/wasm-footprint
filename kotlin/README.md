@@ -8,3 +8,10 @@
 
 `./gradlew wasmWasiNodeTest`
 
+## To build an optimized distribution
+
+```
+./gradlew :compileProductionExecutableKotlinWasmWasiOptimize`
+ls -lhS build/compileSync/wasmWasi/main/productionExecutable/optimized/add-wasm-wasi.wasm 
+```
+
